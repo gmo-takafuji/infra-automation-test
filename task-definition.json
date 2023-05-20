@@ -1,9 +1,9 @@
 {
-    "family": "httpd-task",
+    "family": "my-test-task",
     "networkMode": "awsvpc",
     "containerDefinitions": [
       {
-        "name": "httpd-container",
+        "name": "test-httpd",
         "image": "httpd",
         "portMappings": [
           {
